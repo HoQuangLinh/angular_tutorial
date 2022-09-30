@@ -1,0 +1,53 @@
+<div class="row login-container">
+  <div class="col-6 login-container__left">
+    <img src="../../assets/images/login/Indeer.png" alt="" />
+  </div>
+  <div class="col-6 login-container__right">
+    <div class="login-container__right__header mg-bottom-40">
+      <h3 class="form-header mg-bottom-10">Hello, welcome back !</h3>
+      <p class="form-desc">Please fill in your information to get access.</p>
+    </div>
+    <form id="form-login" class="form-login" action="">
+      <div class="form-login-info">
+        <div id="form-item-email" class="form-item mg-bottom-15">
+          <label id="label-email" for="">Email</label>
+          <div class="form-item-input mg-top-5">
+            <input id="email" type="text" placeholder="name@netpower.no" />
+            <button class="button-close-icon"></button>
+          </div>
+        </div>
+        <div id="form-item-password" class="form-item mg-bottom-15">
+          <label id="label-password" for="password">Password</label>
+          <div class="form-item-input mg-top-5">
+            <input
+              id="password"
+              type="password"
+              value=""
+              placeholder="*******"
+            />
+            <button class="button-hide-icon display-none"></button>
+            <button class="button-show-icon"></button>
+          </div>
+        </div>
+        <div class="form-item-remember">
+          <div>
+            <input type="checkbox" name="" id="" />
+            <span>Remember me</span>
+          </div>
+          <a
+            href="../forgot_password/recover_password.html"
+            type="button"
+            class="button-emphase"
+          >
+            Forgot Password?
+          </a>
+        </div>
+        <button class="button-enabled-large">Login</button>
+        <div class="row signup-line">
+          Don't have an account?
+          <a routerLink="/register" class="button-emphase">&nbsp;Sign up</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

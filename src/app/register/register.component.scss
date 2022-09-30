@@ -1,0 +1,24 @@
+.container {
+  background-color: #ffff;
+}
+.container-left {
+  background: linear-gradient(151.25deg, #5dd6ff -7.2%, #188cb3 109.82%);
+}
+.container-right {
+  overflow: auto;
+}
+.container-left-image {
+  width: 72%;
+}
+.form-recover-password {
+  position: relative;
+}
+.form-button {
+  position: absolute;
+  right: 0;
+}
+@media screen and (max-height: 800px) {
+  .container-right {
+    justify-content: flex-start;
+  }
+}

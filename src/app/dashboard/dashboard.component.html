@@ -1,0 +1,26 @@
+<h2>Top Heroes</h2>
+<p>Test form</p>
+<form>
+  Name:
+  <input
+    type="text"
+    [(ngModel)]="name"
+    [ngModelOptions]="{ standalone: true }"
+  />
+
+  Email:
+  <input
+    type="text"
+    [(ngModel)]="email"
+    [ngModelOptions]="{ standalone: true }"
+  />
+  <button (click)="submitForm()">Submit</button>
+</form>
+
+<!-- <div [appHighLight]="'orange'" class="heroes-menu">
+  <a *ngFor="let hero of heroes" routerLink="/heroes/{{ hero.id }}">
+    {{ hero.name }}
+  </a>
+</div> -->
+
+<app-hello-search></app-hello-search>
